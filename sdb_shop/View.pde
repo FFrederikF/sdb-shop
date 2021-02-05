@@ -5,21 +5,24 @@ class View {
   Textfield amount;
   Textlabel reciept;
   
-  Button confirm;
+  Button confirmButton;
   Button finishSale;
   Button saveReciept;
   Button loadReciept;
   
-  
+  // Variabler til produkt id og mængde
+  int id;
+  int a;
   
   PFont font;
   
   
   View() {
     
+    
     font = createFont("Arial", 24);
     
-    productID = cp5.addTextfield("productName");
+    productID = cp5.addTextfield("productID");
     productID.setPosition(200, 20)
       .setSize(250, 40)
       .setFont(font)
@@ -27,7 +30,7 @@ class View {
       .setAutoClear(false)
       .setLabel("");
       
-    amount = cp5.addTextfield("productPrice");
+    amount = cp5.addTextfield("amount");
     amount.setPosition(460, 20)
       .setSize(150, 40)
       .setFont(font)
@@ -42,27 +45,37 @@ class View {
       .setColor(color(255))
       .setLabel("This is text \n is this new line?");
       
-    confirm = cp5.addButton("confirm");
-    confirm.setPosition(620, 20)
+    confirmButton = cp5.addButton("confirm");
+    confirmButton.setPosition(620, 20)
       .setSize(100, 40)
-      .setLabel("Tilfoeg til kurv");
+      .setLabel("Add to kart");
     
   }
   
-  // Retuner ID for vare
+  // Retuner ID are
   int getID() {
-    int id = int(this.productID.getValue());
-    return id;
+    return this.id; 
     
   }
   
-  // Retuner mængden af den samme vare
+  // Retuner mængde af samme vare
   int getAmount() {
-    int a = int(this.amount.getValue());
-    return a;
+    return this.a;
+    
+  }
+  
+  void setReciept() {
   
   }
+  
+  
+  
 
-
-
+}  
+  
+void confirm() {
+   //this.id = int(this.productID.getValue());
+   //this.a = int(this.amount.getValue());
+    
+   println("Product has been added to kart.");
 }

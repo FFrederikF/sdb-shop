@@ -1,6 +1,6 @@
 class Model{
   // Model attributter
-  Vare[] VareListe = new Vare[];
+  //Vare[] VareListe = new Vare[];
   // Model konstruktør
   
   // Model funktioner

@@ -8,13 +8,13 @@ View view;
 
 void setup() {
   size(768, 512);
-  
+
   cp5 = new ControlP5(this);
-  
   view = new View();
 
 }
 
 void draw() {
+  
   
 }
