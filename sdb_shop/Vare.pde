@@ -20,6 +20,7 @@ class Vare {
     return id;
   }
 
+
   String getNavn() {
     return navn;
   }
