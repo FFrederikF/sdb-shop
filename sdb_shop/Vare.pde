@@ -6,7 +6,7 @@ class Vare {
   float pris;
 
   // konstruktor
-  Vare(int i, String S, float p) {
+  Vare(int i, String n, float p) {
 
     id =i;
     navn=n;
@@ -20,7 +20,7 @@ class Vare {
     return id;
   }
 
-  String name() {
+  String getNavn() {
     return name;
   }
 
