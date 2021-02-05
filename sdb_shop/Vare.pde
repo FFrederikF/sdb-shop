@@ -21,7 +21,7 @@ class Vare {
   }
 
   String getNavn() {
-    return name;
+    return navn;
   }
 
   float getPris() {
