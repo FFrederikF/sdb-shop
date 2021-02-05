@@ -8,8 +8,8 @@ class Vare {
   // konstruktor
   Vare(int i, String n, float p) {
 
-    id =i;
-    navn=n;
+    id = i;
+    navn= n;
     pris = p;
   }
 
@@ -20,7 +20,8 @@ class Vare {
     return id;
   }
 
-  String name() {
+
+  String getNavn() {
     return navn;
   }
 
