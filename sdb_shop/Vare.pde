@@ -6,10 +6,10 @@ class Vare {
   float pris;
 
   // konstruktor
-  Vare(int i, String S, float p) {
+  Vare(int i, String n, float p) {
 
-    id =i;
-    navn=n;
+    id = i;
+    navn= n;
     pris = p;
   }
 
@@ -20,8 +20,9 @@ class Vare {
     return id;
   }
 
-  String name() {
-    return name;
+
+  String getNavn() {
+    return navn;
   }
 
   float getPris() {
