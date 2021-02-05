@@ -2,9 +2,13 @@ class Model{
   
   
   // Model attributter
+
+  //Vare[] VareListe = new Vare[];
+
   //String[] vareHistory;
   
   //Vare[] VareListe;
+
   // Model konstruktør
   
   // Model funktioner
