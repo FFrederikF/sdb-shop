@@ -33,6 +33,10 @@ float varePrisTotal(int id, int antal) {
   return midler;
 }
 
-float totalPris
+//float beregnMoms(){}
 
-float totalPrisMoms
+// 
+
+//float totalPris
+
+//float totalPrisMoms
